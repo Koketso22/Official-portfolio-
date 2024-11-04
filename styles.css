@@ -1,0 +1,89 @@
+/* General body styling */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Clean, modern font for readability */
+    background-color: #121212; /* Dark background for a modern look */
+    color: #e0e0e0; /* Light text color for contrast */
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 2.5rem;
+    background-color: #1f1b24; /* Dark color to make the header distinct */
+    color: #f0f0f0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #bb86fc; /* Accent color to make the title stand out */
+    text-transform: uppercase;
+}
+
+/* Navigation styling */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #1f1b24;
+}
+
+nav a {
+    color: #03dac6; /* Accent color for links */
+    margin: 0 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #bb86fc; /* Hover color for an interactive feel */
+}
+
+/* About Section Styling */
+section#About {
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+    color: #e0e0e0;
+}
+
+section#About h2 {
+    font-size: 2.5rem;
+    color: #03dac6; /* Accent color to make section title pop */
+    margin-bottom: 1rem;
+}
+
+section#About p {
+    line-height: 1.8;
+    font-size: 1.2rem;
+    color: #f5f5f5;
+}
+
+/* Footer styling */
+footer {
+    background-color: #1f1b24;
+    color: #e0e0e0;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+footer a {
+    color: #03dac6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #bb86fc;
+}
